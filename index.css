@@ -45,7 +45,7 @@ margin-right: 20px;
     .nav-links{
         position: fixed;
         top:45px;
-        background-color: aliceblue;
+        background-color: rgba(0, 0, 0, 0.8 );
         width:100%;  
         top:-2000px;
         text-align: center;
@@ -54,6 +54,9 @@ margin-right: 20px;
     }
     .nav-links ul li{
         margin: 30px 0px;
+    }
+    .nav-links ul li a{
+        color:white;
     }
     .icons{
         display: block;
@@ -74,7 +77,32 @@ margin-right: 20px;
 
 }
 
-/* #menu:hover{
-    transform: rotate(360deg);
-    transition: all 0.5s ease-in-out;
-} */
+.home-page{
+    /* background-color: yellow; */
+    height:90vh;
+}
+.home-content{
+    margin-left: 25px;
+    position: absolute;
+    top:40%;
+}
+.home-content h1{
+    font-size: 50px;
+}
+.home-content p{
+    line-height: 1.4rem;
+    margin-left: 5px;
+}
+.home-content button{
+    border: none;
+    padding: 9px 30px;
+    background-color: rgb(8, 214, 8);
+    border-radius: 4px;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+.home-content button a{
+    color:white;
+   font-size: 15px;
+   font-weight: 600;
+}
